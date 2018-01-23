@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">tourguide</string>
+    <string name="monument">Monument</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="hotel">Hotel</string>
+    <string name="sport">Sport</string>
+    <string name="title_activity_sport">SportActivity</string>
+    //hotel
+    <string name="castle_restarant">The Castle Restaurant</string>
+    <string name="castle_restarant_info">Address: Masarykovo nám. 1, 733 01 Karviná
+        \Phone: +420 596 313 196</string>
+    <string name="baron_restarant">Baron</string>
+    <string name="baron_restarant_info">Address: Pivovarská 17/13, 733 01 Karviná
+        \Phone: +420 736 750 168</string>
+    <string name="ovecka_restarant">Ovečka</string>
+    <string name="ovecka_restarant_info">Address: Polská 117/8, 734 01 Karviná
+        \Phone: +420 723 933 108</string>
+    <string name="larische_restarant">Larische Bowling</string>
+    <string name="larische_restarant_info">Address: Sportovní 898/4735 06 Karviná
+        \Phone +420 603 929 457</string>
+    //hotel
+    <string name="sport_hotel">Hotel Sport</string>
+    <string name="sport_hotel_adress">Address:Karola Śliwky 783/2a 733 01 Karviná
+        \Phone +420 596 312 278 </string>
+    //sport
+    <string name="stars_sport">STARS-karvina</string>
+    <string name="stars_sport_info">Společnost STaRS Karviná, s.r.o. je mladou progresivní
+        společností,
+        která má za úkol nabídnout široké veřejnosti služby v oblasti sportu a pohybové rekreace.
+        Naší snahou je připravit co nejlepší podmínky pro realizaci zdravého životního stylu všem
+        věkovým skupinám v široké paletě nejrůznějších sportů.
+    </string>
+    //pamatky
+    <string name="castle">Zámek Fryštát</string>
+    <string name="castle_info">Empírový zámek Fryštát je jediným dochovaným ze tří zámků,
+        které se v Karviné původně nacházely. Už na počátku 14. století stála na jeho místě
+        gotická tvrz založená těšínskými Piastovci. Zámek několikrát vyhořel a měnil své majitele,
+        až jej v roce 1792 koupil rod Larisch-Mönnichů a začala jeho rozsáhlá přestavba, po jejímž
+        dokončení v roce 1800 nabyl svoji dnešní empírovou podobu. Roku 1945 byl zámek zkonfiskován
+        na základě Benešových dekretů a od roku 1990 je ve vlastnictví města Karviné. Na zámku se
+        dnes pořádají prohlídky a nachází se zde stálá expozice šlechtického bydlení 16.–20.
+        století.</string>
+    <string name="dva_herkulove">Dva Herkulové</string>
+    <string name="dva_herkulové_info">Dvě raně barokní sochy Herkulů pochází z roku 1682 a
+        stojí po stranách hlavního vchodu zámku Fryštát. Původně tvořily výzdobu zámeckého parku
+        Ráj,zámek byl však v 80. letech 20. století po dlouhém chátrání a požáru zbořen a spolu
+        s ním zanikl i samotný park. Dnes jsou Herkulové jediným pozůstatkem Rajského parku.
+    </string>
+    <string name="radnice">Radnice </string>
+    <string name="radnice_info">V MonumNetu je uvedena adresa Masarykovo náměstí 72/26.
+        V registru adres jsou pouze adresy Fryštátská 72/1 a Masarykovo náměstí 71/26.
+        Uvedené parcelní číslo 113 odpovídá pouze budově s adresou Fryštátská 72/1,
+        jejíž západní průčelí směřuje na Masarykovo náměstí. K této budově a
+        parcele přísluší i věž vystupující do náměstí.</string>
+    <string name="lottyhaus">Lottyhaus</string>
+    <string name="lottyhaus_info">Lottyhaus je vedlejší budova zámku Fryštát,
+        se kterým je spojen prosklenou chodbou. Byl postaven během přestavby zámku v letech
+        1792–1800 na místě čtyř spálených domů po požáru v roce 1781.[6] Dnes se v něm nachází
+        expozice šlechtického a měšťanského bydlení spolu se sbírkami Národní galerie v Praze
+        zahrnující obrazy českého výtvarného umění 19. a 20. století</string>
+    <string name="kostel">Kostel Povýšení svatého Kříže</string>
+    <string name="kostel_info">Farní kostel Povýšení sv. Kříže pochází zřejmě z konce 13.
+        století, což z něj činí nejstarší kulturní památku města a jednu z nejstarších v regionu.
+        Jakožto jediná zděná stavba ve městě totiž dokázal přečkat četné požáry,
+        které Fryštát v průběhu jeho historie několikrát zasáhly, a i když si kostel po
+        různých přestavbách a opravách zachoval svůj pozdně gotický charakter, lze u něj
+        najít i prvky renesance, baroka a klasicismu.[8] V roce 2011 zde byly objeveny fresky
+        z 15. století znázorňující život svaté Kateřiny a Barbory, přičemž cyklus sv. Kateřiny
+        je nejstarší v republice.</string>
+    <string name="panny_marie">Socha Panny Marie Bolestné </string>
+    <string name="panny_marie_info">Socha Panny Marie Bolestné pochází z 1. poloviny 18.
+        století a původně se nacházela v Karviné-Dolech. V roce 1970 byla přemístěna ke
+        kostelu Povýšení sv. Kříže ve Fryštátě, kde stojí dodnes.</string>
+    <string name="most">Most Sokolovských hrdinů</string>
+    <string name="most_info">Železobetonový most vede přes řeku Olši a je mimořádný svým
+        technickým řešením oblouku pomocí Vierendeelova nosníku.[15] Jeho stavba začala v roce
+        1922 podle návrhu vídeňského architekta Rabeho a byla dokončena o tři roky později.
+        Během povodní v roce 1997 byl most málem zaplaven, a proto byl později v letech 2003–2004
+        vyzdvihnut o dva metry a zrekonstruován. Nyní slouží pouze cyklistům a pěším.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+
+</resources>
