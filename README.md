@@ -1,5 +1,5 @@
 
-This is the four project of the Google Developer Challenge Scholarship - Android Basics - 2017/2018. The goal is to create an educational app that tourapp a user about a certain topic. I choose a city of karvina
+This is the four project of the Google developer challenge scholarship. The task given was to create a Tour app. I chose city Karvina in Czech republic.
 
 * Use of ScrollView
 * Rotation of an ImageView
