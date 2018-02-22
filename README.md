@@ -1,5 +1,5 @@
 
-This is the four project of the Google developer challenge scholarship. The task given was to create a Tour app. I chose city Karvina in Czech republic.
+This is the five project of the Google developer challenge scholarship. The task given was to create a Tour app. I chose city Karvina in Czech republic.
 
 * Use of ScrollView
 * Rotation of an ImageView
