@@ -5,6 +5,10 @@
     <string name="hotel">Hotel</string>
     <string name="sport">Sport</string>
 
+    <string name="desc">desc</string>
+    <string name="image">image</string>
+    <string name="name">name</string>
+
 
     <string name="title_activity_sport">SportActivity</string>
     //hotel

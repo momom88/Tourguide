@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 public class InfoActivity extends AppCompatActivity {
 
     @Override
@@ -25,9 +26,9 @@ public class InfoActivity extends AppCompatActivity {
         final Bundle extras = getIntent().getExtras();
 
         // Getting the Views from xml
-        nameTextView.setText(extras.getString("name"));
-        infoTextView.setText(extras.getString("desc"));
-        infoImage.setImageResource(extras.getInt("image"));
+        nameTextView.setText(extras.getString(getString(R.string.name)));
+        infoTextView.setText(extras.getString(getString(R.string.desc)));
+        infoImage.setImageResource(extras.getInt(getString(R.string.image)));
 
     }
 

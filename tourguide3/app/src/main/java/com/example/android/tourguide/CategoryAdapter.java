@@ -4,12 +4,10 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.view.accessibility.AccessibilityManager;
-import android.widget.Toast;
 
 /**
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
- * each list item based on a data source which is a list of {@link Content} objects.
+ * each list item based on a data source which is a list of {@link Place} objects.
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
