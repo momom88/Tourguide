@@ -17,17 +17,18 @@ public class InfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
-        TextView infoTextView=(TextView) findViewById(R.id.info_text);
-        ImageView infoImage=(ImageView)findViewById(R.id.info_image);
-        TextView nameTextView=(TextView)findViewById(R.id.info_name);
+        TextView infoTextView = (TextView) findViewById(R.id.info_text);
+        ImageView infoImage = (ImageView) findViewById(R.id.info_image);
+        TextView nameTextView = (TextView) findViewById(R.id.info_name);
 
         // Receiving the intent extras that were put in the fragments
-        final Bundle extras=getIntent().getExtras();
+        final Bundle extras = getIntent().getExtras();
 
         // Getting the Views from xml
         nameTextView.setText(extras.getString("name"));
         infoTextView.setText(extras.getString("desc"));
         infoImage.setImageResource(extras.getInt("image"));
+
     }
 
 }

@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">tourguide</string>
+    <string name="app_name">Karvina Guilde</string>
     <string name="monument">Monument</string>
     <string name="restaurant">Restaurant</string>
     <string name="hotel">Hotel</string>
     <string name="sport">Sport</string>
+
+
     <string name="title_activity_sport">SportActivity</string>
     //hotel
     <string name="castle_restarant">The Castle Restaurant</string>

@@ -13,8 +13,8 @@
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
-        android:layout_margin="5dp"
         android:layout_height="@dimen/list_item_height"
+        android:layout_margin="5dp"
         android:layout_toRightOf="@id/image"
         android:orientation="vertical"
         android:paddingLeft="16dp">
@@ -23,14 +23,17 @@
             android:id="@+id/name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textColor="@android:color/black" />
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
 
 
         <TextView
             android:id="@+id/content_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="5"
             android:textColor="@android:color/black" />
 
     </LinearLayout>

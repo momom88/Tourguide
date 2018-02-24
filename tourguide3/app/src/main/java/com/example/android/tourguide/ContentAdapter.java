@@ -1,4 +1,5 @@
 package com.example.android.tourguide;
+
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,14 +17,13 @@ public class ContentAdapter extends ArrayAdapter<Content> {
     /**
      * Create a new {@link ContentAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
+     * @param context  is the current context (i.e. Activity) that the adapter is being created in.
      * @param contents is the list of {@link Content}s to be displayed.
      */
 
     public ContentAdapter(Context context, ArrayList<Content> contents) {
         super(context, 0, contents);
     }
-
 
 
     @Override
@@ -39,14 +39,14 @@ public class ContentAdapter extends ArrayAdapter<Content> {
         Content currentContent = getItem(position);
 
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
-
+        // Get the name Song from the currentContent object and set this text on
+        // the nameTextView.
         nameTextView.setText(currentContent.getName());
-
+        // Find the TextView in the Activity_main.xml layout with the ID author.
         TextView contentTextView = listItemView.findViewById(R.id.content_text_view);
-
-
-        contentTextView.setText(currentContent.getiContent());
-
+        // Get the name Author from the currentPlay object and set this text on
+        // the Author TextView.
+        contentTextView.setText(currentContent.getContent());
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = listItemView.findViewById(R.id.image);
         // Check if an image is provided for this word or not

@@ -19,7 +19,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:gravity="center_horizontal"
-                android:paddingTop="@dimen/padding"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/black"
                 android:textSize="24dp"
                 android:textStyle="bold" />
 
@@ -29,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/padding1"
                 android:paddingRight="@dimen/padding1"
-                android:paddingTop="@dimen/padding" />
+                android:paddingTop="@dimen/padding"
+                android:textColor="@android:color/black" />
 
             <ImageView
                 android:id="@+id/info_image"
